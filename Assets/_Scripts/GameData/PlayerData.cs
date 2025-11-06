@@ -1,0 +1,27 @@
+
+[System.Serializable]
+public class PlayerData
+{
+    public int playerId;
+    public string playerName;
+    public string characterClass;
+    public int level;
+    public int exp;
+    public int maxHealth;
+    public float health;
+    public float defense;
+    public float damage;
+    public int skillPoints;
+
+    public string sceneName;
+    public float positionX;
+    public float positionY;
+    public float positionZ;
+    public float rotationY;
+
+    public WeaponData[] weapons;
+
+    public InventoryData inventoryData;
+
+    public int worldLevel;
+}
